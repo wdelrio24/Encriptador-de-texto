@@ -24,3 +24,10 @@ body{
 .adv{
     color: var(--color-terciaria);
 }
+
+.presentacion {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
