@@ -1,9 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
     --color-primaria: #f2f5fd;
     --color-secundaria: #0A3871;
     --color-terciaria: #343A40;
+    --color-4: #FFFFFF;
+
+    --fuente-inter: "Inter", sans-serif;
 }
 
 * {
@@ -15,19 +18,34 @@ body{
     box-sizing: border-box;
     background-color: var(--color-primaria);
     color: var(--color-secundaria);
-}
-
-.Interf{
-    color: var(--color-terciaria);
-}
-
-.adv{
-    color: var(--color-terciaria);
+    font-size: 2rem;
 }
 
 .presentacion {
-    padding: 5% 15%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.b1{
+    padding: 50% 0%;
+}
+.adv{
+    color: var(--color-terciaria);
+    font-size: 0.75rem;
+    
+}
+
+.Interf{
+    color: var(--color-terciaria);
+    background-color: var(--color-4);
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.t1{
+    font-size: 1rem;
+}
+
