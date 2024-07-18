@@ -1,0 +1,26 @@
+
+
+:root {
+    --color-primaria: #f2f5fd;
+    --color-secundaria: #0A3871;
+    --color-terciaria: #343A40;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-primaria);
+    color: var(--color-secundaria);
+}
+
+.Interf{
+    color: var(--color-terciaria);
+}
+
+.adv{
+    color: var(--color-terciaria);
+}
