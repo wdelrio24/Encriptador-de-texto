@@ -57,3 +57,12 @@ body{
     font-size: 1rem;
 }
 
+.footer{
+    color:var(--color-primaria);
+    background-color: var(--color-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
