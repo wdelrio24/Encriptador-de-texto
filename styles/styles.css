@@ -5,6 +5,7 @@
     --color-secundaria: #0A3871;
     --color-terciaria: #343A40;
     --color-4: #FFFFFF;
+    --color-6: #D8DFE8;
 
     --fuente-inter: "Inter", sans-serif;
 }
@@ -37,10 +38,19 @@ body{
 }
 
 .b1{
-    padding: 40% 0%;
+    /* padding: 40% 0%; Se oculta padding para probar*/
     border: none;
+    margin-top: 21rem;
+    
+}
+
+.b2{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
     margin-top: 1rem;
 }
+
 .adv{
     color: var(--color-terciaria);
     font-size: 0.75rem;
@@ -48,11 +58,11 @@ body{
 }
 
 .bt_1{
-    width: 100%;
+    width: 30%;
     height: 67px;
     border-radius: 16px;
     background-color:  var(--color-secundaria);
-    border: none;
+    border: 1px solid var(--color-secundaria);
     color: var(--color-primaria);
     padding: 1.5rem;
     font-size: 16px;
@@ -61,6 +71,17 @@ body{
 }
 
 .bt_2{
+    width: 30%;
+    height: 67px;
+    border-radius: 16px;
+    background-color:  var(--color-6);
+    border: 1px solid var(--color-secundaria);
+    color: var(--color-secundaria);
+    padding: 1.5rem;
+    font-size: 16px;
+    font-weight: 280;
+    font-family: var(--fuente-inter)
+    
     
 }
 
@@ -79,10 +100,11 @@ body{
 .footer{
     color:var(--color-primaria);
     background-color: var(--color-terciaria);
-    padding: 24px;
+    padding: 14px;
     text-align: center;
     font-family: var(--fuente-inter);
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top: 4.5rem;
 }
 
