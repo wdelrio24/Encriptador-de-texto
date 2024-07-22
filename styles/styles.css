@@ -38,10 +38,29 @@ body{
 
 .b1{
     padding: 40% 0%;
+    border: none;
+    margin-top: 1rem;
 }
 .adv{
     color: var(--color-terciaria);
     font-size: 0.75rem;
+    
+}
+
+.bt_1{
+    width: 100%;
+    height: 67px;
+    border-radius: 16px;
+    background-color:  var(--color-secundaria);
+    border: none;
+    color: var(--color-primaria);
+    padding: 1.5rem;
+    font-size: 16px;
+    font-weight: 280;
+    font-family: var(--fuente-inter)
+}
+
+.bt_2{
     
 }
 
@@ -66,3 +85,4 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
