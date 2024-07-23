@@ -101,13 +101,16 @@ body{
     font-size: 1.5rem;
     width: 30%;
     text-align: center;
-    height: 42rem;
+    height: 60rem;
     border-radius: 32px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    align-items: center;
     
 }
+
+
 
 .imagen1{
     margin-top: 6rem;
@@ -117,6 +120,51 @@ body{
 
 .t1{
     font-size: 1rem;
+}
+
+.Interf_2 {
+    color: var(--color-terciaria);
+    background-color: var(--color-4);
+    font-size: 2rem;
+    width: 30%;
+    height: 60rem;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.t2 {
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    margin-top: auto; /* Empuja el contenedor del botón al final */
+    margin-bottom: 0.5rem; /* Ajusta este valor para el espaciado deseado con el borde final */
+}
+
+.bt_3 {
+    width: 18vw;
+    height: 67px;
+    border-radius: 16px;
+    background-color: var(--color-4);
+    border: 1px solid var(--color-secundaria);
+    color: var(--color-secundaria);
+    padding: 1.5rem;
+    font-size: 16px;
+    font-weight: 280;
+    font-family: var(--fuente-inter);
+}
+
+
+
+.bt_3:hover{
+    background-color: var(--color-hover2);
 }
 
 .footer{
