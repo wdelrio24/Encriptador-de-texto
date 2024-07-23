@@ -6,7 +6,7 @@
     --color-terciaria: #343A40;
     --color-4: #FFFFFF;
     --color-6: #D8DFE8;
-    --color-hover1:	#0000CD;
+    --color-hover1:	#00008B;
     --color-hover2:  #f2f5fd;
 
     --fuente-inter: "Inter", sans-serif;
@@ -100,7 +100,19 @@ body{
     background-color: var(--color-4);
     font-size: 1.5rem;
     width: 30%;
-   
+    text-align: center;
+    height: 42rem;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.imagen1{
+    margin-top: 6rem;
+    width: 21rem ;
+    height: 19rem;
 }
 
 .t1{
@@ -110,7 +122,7 @@ body{
 .footer{
     color:var(--color-primaria);
     background-color: var(--color-terciaria);
-    padding: 14px;
+    padding: 1rem;
     text-align: center;
     font-family: var(--fuente-inter);
     font-size: 1.5rem;
