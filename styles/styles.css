@@ -6,6 +6,8 @@
     --color-terciaria: #343A40;
     --color-4: #FFFFFF;
     --color-6: #D8DFE8;
+    --color-hover1:	#0000CD;
+    --color-hover2:  #f2f5fd;
 
     --fuente-inter: "Inter", sans-serif;
 }
@@ -83,6 +85,14 @@ body{
     font-family: var(--fuente-inter)
     
     
+}
+
+.bt_1:hover{
+    background-color: var(--color-hover1);
+}
+
+.bt_2:hover{
+    background-color: var(--color-hover2);
 }
 
 .Interf{
