@@ -246,3 +246,71 @@ body{
     }
     
 }
+
+@media (max-width: 450px) {
+
+    .presentacion{
+        flex-direction: column;
+        padding: 5%;
+        gap: 4rem;
+
+        align-items: baseline;
+
+    }
+
+    .presentacion__contenido{
+        width: auto; 
+    }
+    
+    .Interf{
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+        align-items: center;
+        
+    }
+
+    .Interf_2{
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+        align-items: center;
+        
+    }
+
+    .imagen1{
+        margin-top: 1rem;
+        width: 0rem ;
+        height: 0rem;
+    }
+    .footer{
+        margin-top: auto;
+    }
+
+   
+    .b2 {
+        display: flex;
+
+        box-sizing: border-box; /* Incluye padding y border en el ancho total */
+        flex-direction: column;
+        
+    }
+   
+    
+    .bt_1{
+        width: 100%;
+    }
+    
+    .bt_2{
+        width: 100%;     
+    }
+
+
+
+    .button-container {
+        width: 80vw;
+    }
+    
+ 
+    
+}
