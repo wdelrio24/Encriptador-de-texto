@@ -17,6 +17,10 @@
     margin:0;
 }
 
+header{
+    padding-top: 2rem; 
+}
+
 body{
     box-sizing: border-box;
     background-color: var(--color-primaria);
@@ -178,3 +182,67 @@ body{
     margin-top: 4.5rem;
 }
 
+
+@media (max-width: 1200px) {
+
+    
+    .presentacion{
+        flex-direction: column;
+        padding: 5%;
+        gap: 4rem;
+
+        align-items: baseline;
+
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
+    
+    .Interf{
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+        align-items: center;
+        
+    }
+
+    .Interf_2{
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+        align-items: center;
+        
+    }
+
+    .imagen1{
+        margin-top: 1rem;
+        width: 0rem ;
+        height: 0rem;
+    }
+    .footer{
+        margin-top: auto;
+    }
+
+    .b1{
+        /* padding: 40% 0%; Se oculta padding para probar*/
+        border: none;
+        margin-top: 30rem;
+        width: 100%;
+    }
+    .b2 {
+        display: flex;
+        width: 90vw; /* Asegura que el contenedor ocupe todo el ancho de la ventana */
+        box-sizing: border-box; /* Incluye padding y border en el ancho total */
+        
+    }
+   
+    button {
+        flex: 1;
+    }
+
+    .button-container {
+        width: 80vw;
+    }
+    
+}
