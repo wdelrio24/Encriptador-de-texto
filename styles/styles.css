@@ -43,6 +43,25 @@ body{
     gap: 40px;
 }
 
+#lowercaseInput {
+    background-color: transparent; /* Fondo transparente */
+    font-size: 2em; /* Mismo tamaño de fuente que el h1 */
+    font-weight: bold; /* Mismo peso de la fuente que el h1 */
+    border: none; /* Sin borde */
+    padding: 0; /* Sin espacio interior */
+    outline: none; /* Sin contorno al hacer foco */
+    color: inherit; /* Hereda el color de la fuente del h1 */
+    width: 100%; /* Hace que el textarea ocupe todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente */
+    resize: none; /* Evita que el usuario cambie el tamaño del textarea */
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+}
+
+#lowercaseInput::placeholder {
+    color: inherit; /* Hace que el color del placeholder sea el mismo que el del texto */
+}
+
+
 .b1{
     /* padding: 40% 0%; Se oculta padding para probar*/
     border: none;
