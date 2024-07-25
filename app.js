@@ -23,8 +23,10 @@ function setupRedirectButton(buttonId,) {
 }
 
 function isLowerCase(str) {
-    return /^[a-z]+$/.test(str); // Verificar si la cadena contiene solo letras minúsculas sin acentos
+    // Expresión regular para letras minúsculas, espacios, signos de admiración y pregunta
+    return /^[a-z\s!?]+$/.test(str); // Verifica si la cadena contiene solo letras minúsculas, espacios, ! y ?
 }
+
 
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
