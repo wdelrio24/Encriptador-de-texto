@@ -171,7 +171,7 @@ body{
     display: flex;
     justify-content: center; /* Centra el botón horizontalmente */
     margin-top: auto; /* Empuja el contenedor del botón al final */
-    margin-bottom: 3.5rem; /* Ajusta este valor para el espaciado deseado con el borde final */
+    margin-bottom: 4rem; /* Ajusta este valor para el espaciado deseado con el borde final */
 }
 
 .bt_3 {

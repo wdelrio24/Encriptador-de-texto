@@ -1,4 +1,4 @@
-function setupRedirectButton(buttonId,longText) {
+function setupRedirectButton(buttonId) {
     document.getElementById(buttonId).addEventListener('click', function() {
         var textarea = document.getElementById('longText');
         var text = textarea.value.trim(); // Obtener el valor del textarea y eliminar espacios en blanco al principio y al final
@@ -14,7 +14,5 @@ function setupRedirectButton(buttonId,longText) {
 }
 
 
-setupRedirectButton("encriptar_1",'longText_1')
-setupRedirectButton("desencriptar_1",'longText_1')
-setupRedirectButton("encriptar_2",'longText_2')
-setupRedirectButton("desencriptar_2",'longText_2')
+setupRedirectButton("encriptar")
+setupRedirectButton("desencriptar")
