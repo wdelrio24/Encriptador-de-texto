@@ -16,8 +16,9 @@ function setupRedirectButton(buttonId) {
 
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
-    return;
+    if (elementoHTML) {
+        elementoHTML.innerHTML = texto;
+    }
 }
 
 function replaceLocalStorageValue() {
@@ -34,3 +35,7 @@ if (savedText) {
 asignarTextoElemento('textarea',savedText);
 setupRedirectButton("encriptar")
 setupRedirectButton("desencriptar")
+
+asignarTextoElemento('.t2', savedText);
+
+
