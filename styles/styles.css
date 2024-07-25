@@ -52,7 +52,7 @@ body{
     outline: none; /* Sin contorno al hacer foco */
     color: inherit; /* Hereda el color de la fuente del h1 */
     width: 100%; /* Hace que el textarea ocupe todo el ancho disponible */
-    height: 80vh; /* Ajusta la altura automáticamente */
+    height: 100vh; /* Ajusta la altura automáticamente */
     resize: vertical; /* Permite redimensionar verticalmente */
     overflow: auto; /* Muestra barras de desplazamiento si es necesario */
     white-space: pre-wrap; /* Ajusta el texto automáticamente y mantiene los espacios */
@@ -171,7 +171,7 @@ body{
     display: flex;
     justify-content: center; /* Centra el botón horizontalmente */
     margin-top: auto; /* Empuja el contenedor del botón al final */
-    margin-bottom: 0.5rem; /* Ajusta este valor para el espaciado deseado con el borde final */
+    margin-bottom: 3.5rem; /* Ajusta este valor para el espaciado deseado con el borde final */
 }
 
 .bt_3 {
