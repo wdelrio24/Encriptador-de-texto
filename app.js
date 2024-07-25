@@ -14,5 +14,6 @@ function setupRedirectButton(buttonId) {
 }
 
 
+
 setupRedirectButton("encriptar")
 setupRedirectButton("desencriptar")
