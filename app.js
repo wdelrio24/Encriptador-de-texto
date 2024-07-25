@@ -90,3 +90,16 @@ function setupEncryptionListeners(containerSelector) {
 
 asignarTextoElemento('.t2', outputText);
 
+// Función para copiar el texto al portapapeles
+function copyTextToClipboard() {
+    var textToCopy = document.querySelector('.t2').textContent;
+    // Usa la API del portapapeles para copiar el texto
+    navigator.clipboard.writeText(textToCopy).then(function() {
+
+    }).catch(function(err) {
+        console.error('Error al copiar el texto: ', err);
+    });
+}
+
+// Configura el event listener para el botón de copiar
+document.querySelector('.bt_3').addEventListener('click', copyTextToClipboard);
