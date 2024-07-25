@@ -5,15 +5,27 @@ function setupRedirectButton(buttonId) {
 
         if (text) {
             // Si hay texto, redirigir a otra página
+            localStorage.setItem('textareaValue', text);
             window.location.href = 'app.html';  // Redirige a la URL proporcionada
         } else {
-            // Opcional: manejar el caso cuando el textarea está vacío
             window.location.href = 'index.html';  // Redirige a la URL proporcionada
         }
     });
 }
 
+function asignarTextoElemento(elemento, texto) {
+    let elementoHTML = document.querySelector(elemento);
+    elementoHTML.innerHTML = texto;
+    return;
+}
 
+
+var savedText = localStorage.getItem('textareaValue');
+if (savedText) {
+    document.getElementById('longText').value = savedText;
+}
+
+asignarTextoElemento('textarea',savedText);
 
 setupRedirectButton("encriptar")
 setupRedirectButton("desencriptar")
