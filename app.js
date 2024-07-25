@@ -8,6 +8,7 @@ function setupRedirectButton(buttonId) {
             localStorage.setItem('textareaValue', text);
             window.location.href = 'app.html';  // Redirige a la URL proporcionada
         } else {
+            replaceLocalStorageValue();
             window.location.href = 'index.html';  // Redirige a la URL proporcionada
         }
     });
@@ -19,6 +20,11 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
+function replaceLocalStorageValue() {
+    localStorage.setItem('textareaValue', ''); // Reemplaza el valor en localStorage con una cadena vacía
+    document.getElementById('longText').value = ''; // Limpia el textarea
+}
+
 
 var savedText = localStorage.getItem('textareaValue');
 if (savedText) {
@@ -26,6 +32,5 @@ if (savedText) {
 }
 
 asignarTextoElemento('textarea',savedText);
-
 setupRedirectButton("encriptar")
 setupRedirectButton("desencriptar")
